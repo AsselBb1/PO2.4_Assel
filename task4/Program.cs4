@@ -57,7 +57,7 @@ class Program
 
 
 
-        // Count even and odd numbers
+        // Count 
         int[] data = { 4, 7, 2, 11, 6, 9, 14, 3, 8 };
         int even = 0;
         int odd = 0;
@@ -85,7 +85,7 @@ class Program
 
 
 
-        // Rotate array left by K steps
+        // Rotate
         int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
         int k = 3;
         int[] rotated = RotateLeft(arr, k);
