@@ -80,7 +80,12 @@ class Program
             if (!unique.Contains(num)) unique.Add(num);
         }
         int[] result = unique.ToArray();
-        Console.WriteLine(string.Join(", ", result));
+
+        foreach (int num in result)
+        {
+            Console.Write(num + " ");
+        }
+        Console.WriteLine();
 
 
 
@@ -90,7 +95,6 @@ class Program
         int k = 3;
         int[] rotated = RotateLeft(arr, k);
         Console.WriteLine(string.Join(" ", rotated));
-
 
 
 
